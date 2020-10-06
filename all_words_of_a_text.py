@@ -12,4 +12,6 @@ print('Words: ' , words)
 print('Continuing...')
 for word in words:
     counts[word] = counts.get(word,0) + 1
+for word in words:
+    print(word)
 print("Counts: " , counts)
